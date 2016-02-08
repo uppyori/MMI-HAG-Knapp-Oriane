@@ -1,0 +1,42 @@
+h1 {
+    font-size: 20pt;
+    font-family: century gothic;
+    font-weight: 400;
+    color: darkturquoise;
+}
+h2 {
+    font-size: 30pt;
+    font-family: century gothic;
+    font-weight: 300;
+    color: black;
+}
+h3 {
+    font-size: 14pt;
+    font-family: century gothic;
+    font-weight: 100;
+    color: lightgray;
+}
+h4 {
+    font-size: 18pt;
+    font-family: century gothic;
+    font-weight: 100;
+    color: black;
+}
+h5 {
+    font-size: 16pt;
+    font-family: century gothic;
+    font-weight: 300;
+    color: black;
+}
+h6 {
+    font-size: 12pt;
+    font-family: century gothic;
+    font-weight: 300;
+    color: gray;
+}
+.scare__big--black {
+    background-color: black;
+}
+.scare__big--green {
+    background-color: darkturquoise;
+}
