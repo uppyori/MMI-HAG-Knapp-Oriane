@@ -1,3 +1,5 @@
+/*    CLASSES GENERALES    */
+
 body {
     box-sizing: border-box;
 }
@@ -37,55 +39,6 @@ h6 {
     font-weight: 300;
     color: gray;
 }
-.container {
-    width: 1000px;
-    margin: auto;
-}
-header {
-    background-color: black;
-    color: grey;
-    display: flex;
-    justify-content: space-between;
-}
-.header__logo,
-.header__icon {
-    padding: 1em;
-    margin: 0.5em;
-    align-self: baseline;
-}
-.menu {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    background-color: aliceblue;
-}
-.menu__nav {
-    display: flex;
-    flex-grow: 1;
-    width: 75%;
-    align-self: baseline;
-}
-.menu__navigation {
-    display: flex;
-}
-.menu__icon {
-    display: flex;
-    flex-direction: row;
-    align-self: baseline;
-}
-.menu__icon--elm {
-    align-self: baseline;
-}
-.menu__navigation--element1,
-.menu__navigation--element2,
-.menu__navigation--element3,
-.menu__navigation--element4,
-.menu__navigation--element5,
-.menu__navigation--element6 {
-    padding: 1em;
-    margin: 1em;
-    height: 5em;
-}
 .square__big {
     width: 70px;
     height: auto;
@@ -121,3 +74,89 @@ header {
 .square__tiny--green {
     background-color: darkturquoise;
 }
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+/*                 HEADER               */
+
+header {
+    background-color: black;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo,
+.header__icon {
+    padding: 1em;
+    margin: 0.5em;
+    align-self: baseline;
+}
+
+/*                 SECTION MENU              */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: aliceblue;
+}
+.menu__nav {
+    display: flex;
+    flex-grow: 1;
+    width: 75%;
+    align-self: baseline;
+}
+.menu__navigation {
+    display: flex;
+}
+.menu__icon {
+    display: flex;
+    flex-direction: row;
+    align-self: baseline;
+}
+.menu__icon--elm {
+    padding: 0.5em;
+    margin: 0.5em;
+    align-self: baseline;
+}
+.menu__navigation--element1,
+.menu__navigation--element2,
+.menu__navigation--element3,
+.menu__navigation--element4,
+.menu__navigation--element5,
+.menu__navigation--element6 {
+    padding: 1em;
+    margin: 1em;
+    height: 5em;
+}
+
+/*               SECTION SLIDER               */
+
+.slider__container--img {
+    width: 100%;
+}
+.slider__informations {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+slider__information-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+/*               SECTION CATEGORIES            */
+
+
+/*               SECTION CHOICES               */
+
+
+/*               SECTION WIDGET                */
+
+
+/*               SECTION SOCIALMEDIA           */
+
+
+/*               FOOTER                        */
