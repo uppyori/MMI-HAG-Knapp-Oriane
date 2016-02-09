@@ -6,35 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Maquette INFO4</title>
 
-
-    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
         <header>
-            <h1>FOOSESHOES</h1>
-            <span><i class="fa fa-search"></i></span>
-            <span>LOGIN OR REGISTER</span>
+            <h1 class="header__logo">FOOSESHOES</h1>
+            <div class="header__icon">
+                <span class="icon-search" </span>
+                <span>LOGIN OR REGISTER</span>
+            </div>
         </header>
         <section class="menu">
-            <nav class="menu__navigation">
-                <ul>
-                    <li class="menu menu__navigation menu__navigation--element"><a href="#">Home</a></li>
-                    <li class="menu menu__navigation menu__navigation--element"><a href="#">Products</a></li>
-                    <li class="menu menu__navigation menu__navigation--element"><a href="#">About</a></li>
-                    <li class="menu menu__navigation menu__navigation--element"><a href="#">Pages</a></li>
-                    <li class="menu menu__navigation menu__navigation--element"><a href="#">Blog</a></li>
-                    <li class="menu menu__navigation menu__navigation--element"><a href="#">Contact</a></li>
+            <nav class="menu__nav">
+                <ul class="menu__navigation">
+                    <li class="menu__navigation--element1"><a href="#">Home</a></li>
+                    <li class="menu__navigation--element2"><a href="#">Products</a></li>
+                    <li class="menu__navigation--element3"><a href="#">About</a></li>
+                    <li class="menu__navigation--element4"><a href="#">Pages</a></li>
+                    <li class="menu__navigation--element5"><a href="#">Blog</a></li>
+                    <li class="menu__navigation--element6"><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            <span>
-            <i class="fa fa-star-o"></i>
-            <div class="square__tiny--gray">30</div>
-            <i class="fa fa-shopping-cart"></i>
-            <div class="square__tiny--green">0</div>
-        </span>
+            <div class="menu__icon">
+                <span class="icon-star-empty"></span>
+                <div class="square__tiny--gray">30</div>
+                <span class="icon-cart"></span>
+                <div class="square__tiny--green">0</div>
+            </div>
+
+
         </section>
         <section>
             <img src=""></img>
@@ -42,10 +45,12 @@
                 <div class="square__big square__big--green">$145,99</div>
                 <h2>Pink Shoes <br>2013 Collection</h2>
                 <p>Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci. Donect dignissim dolor eget...</p>
-                <div class="square__little square__little--white"><i class="fa fa-eye"></i></div>
-                <div class="square__little square__little--white"><i class="fa fa-star-o"></i></div>
-                <div class="square__little square__little--white"><i class="fa fa-share-square-o"></i></div>
-                <div class="square__little square__little--white"><i class="fa fa-shopping-cart"></i></div>
+                <div class="square__little square__little--white icon-eye"></div>
+                <div class="square__little square__little--white icon-star-empty">
+                </div>
+                <div class="square__little square__little--white icon-share">
+                </div>
+                <div class="square__little square__little--white icon-cart"></div>
             </div>
         </section>
         <section>
@@ -198,11 +203,11 @@
             </form>
         </div>
         <div class="socialmedia">
-            <div class="square__medium--gray"><i class="fa fa-facebook"></i></div>
-            <div class="square__medium--gray"><i class="fa fa-twitter"></i></div>
-            <div class="square__medium--gray"><i class="fa fa-google-plus"></i></div>
-            <div class="square__medium--gray"><i class="fa fa-linkedin"></i></div>
-            <div class="square__medium--gray"><i class="fa fa-flickr"></i></div>
+            <div class="square__medium--gray icon-facebook"></div>
+            <div class="square__medium--gray icon-twitter"></div>
+            <div class="square__medium--gray icon-google-plus"></div>
+            <div class="square__medium--gray icon-linkedin2"></div>
+            <div class="square__medium--gray icon-flickr"></div>
         </div>
 
     </div>

@@ -1,0 +1,112 @@
+body {
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 20pt;
+    font-family: century gothic;
+    font-weight: 400;
+    color: darkturquoise;
+}
+h2 {
+    font-size: 30pt;
+    font-family: century gothic;
+    font-weight: 300;
+    color: black;
+}
+h3 {
+    font-size: 14pt;
+    font-family: century gothic;
+    font-weight: 100;
+    color: lightgray;
+}
+h4 {
+    font-size: 18pt;
+    font-family: century gothic;
+    font-weight: 100;
+    color: black;
+}
+h5 {
+    font-size: 16pt;
+    font-family: century gothic;
+    font-weight: 300;
+    color: black;
+}
+h6 {
+    font-size: 12pt;
+    font-family: century gothic;
+    font-weight: 300;
+    color: gray;
+}
+header {
+    background-color: black;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo,
+.header__icon {
+    padding: 1em;
+    margin: 0.5em;
+    align-self: baseline;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.menu__nav {
+    display: flex;
+    width: 75%;
+}
+.menu__navigation {
+    display: flex;
+    width: 100%;
+}
+.menu__navigation--element1,
+.menu__navigation--element2,
+.menu__navigation--element3,
+.menu__navigation--element4,
+.menu__navigation--element5,
+.menu__navigation--element6 {
+    padding: 2em;
+    margin: 2em;
+    height: 5em;
+    align-self: auto;
+    flex-basis: 0;
+    text-decoration: none;
+}
+.square__big {
+    width: 70px;
+    height: auto;
+    text-align: center;
+}
+.square__big--black {
+    background-color: black;
+}
+.square__big--green {
+    background-color: darkturquoise;
+}
+.square__big--orange {
+    background-color: coral;
+}
+.square__little {
+    width: 30px;
+    heigth: 30px;
+    color: black;
+    text-align: center;
+}
+.square__little--white {
+    background-color: white;
+}
+.square__tiny {
+    width: 20px;
+    height: 20px;
+    color: white;
+    text-align: center;
+}
+.square__tiny--gray {
+    background-color: gray;
+}
+.square__tiny--green {
+    background-color: darkturquoise;
+}
