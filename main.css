@@ -57,14 +57,24 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    background-color: aliceblue;
 }
 .menu__nav {
     display: flex;
+    flex-grow: 1;
     width: 75%;
+    align-self: baseline;
 }
 .menu__navigation {
     display: flex;
-    width: 100%;
+}
+.menu__icon {
+    display: flex;
+    flex-direction: row;
+    align-self: baseline;
+}
+.menu__icon--elm {
+    align-self: baseline;
 }
 .menu__navigation--element1,
 .menu__navigation--element2,
@@ -72,12 +82,9 @@ header {
 .menu__navigation--element4,
 .menu__navigation--element5,
 .menu__navigation--element6 {
-    padding: 2em;
-    margin: 2em;
+    padding: 1em;
+    margin: 1em;
     height: 5em;
-    align-self: auto;
-    flex-basis: 0;
-    text-decoration: none;
 }
 .square__big {
     width: 70px;
