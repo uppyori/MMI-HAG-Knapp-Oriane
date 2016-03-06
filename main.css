@@ -135,20 +135,32 @@ header {
 /*               SECTION SLIDER               */
 
 .slider__container--img {
-    width: 100%;
+    width: 50%;
+    height: 100%;
+    float: left;
 }
 .slider__informations {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    background-color: #f0ede8;
 }
-slider__information-icons {
+.slider__information-icons {
     display: flex;
     flex-direction: row;
 }
 
 /*               SECTION CATEGORIES            */
 
+.categories {
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.categories__block {}
 
 /*               SECTION CHOICES               */
 
