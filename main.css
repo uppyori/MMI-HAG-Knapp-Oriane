@@ -159,6 +159,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    color: darkgray;
 }
 .categories__block {}
 
