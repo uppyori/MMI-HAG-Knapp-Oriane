@@ -127,10 +127,11 @@
         </section>
         <section class="arrivals">
             <div class="arrivals__block">
-                <h4>New arrivals on FooseShoes</hs4>
-                <span><a href="#">Show all</a></span>
+                <h4>New arrivals on FooseShoes</h4>
+                <span class="show"><a href="#">Show all</a></span>
             </div>
-            <div class="arrivals__block">
+            <div class="clear"></div>
+            <div class="arrivals__block--regroupement">
                 <article>
                     <img src="img/shoe1.jpg"></img>
                     <h5>Event & Odds</h5>
@@ -146,12 +147,13 @@
                     <h5>Buffalo Décoltè</h5>
                     <div class="square__big--green">$145,99</div>
                 </article>
-            </div> 
-            <div class="arrivals__block">
-            <h4>Best seller of the month</h4>
-                <span><a href="#">Show all</a></span>
             </div>
             <div class="arrivals__block">
+                <h4>Best seller of the month</h4>
+                <span class="show"><a href="#">Show all</a></span>
+            </div>
+            <div class="clear"></div>
+            <div class="arrivals__block--regroupement">
                 <article>
                     <img src="img/shoe4.jpg"></img>
                     <h5>Event & Odds</h5>
@@ -212,26 +214,29 @@
             </article>
         </section>
         <hr></hr>
-        <div class="searchbar">
-            <form action="" class="searchbar--formulaire">
-                <input class="" type="text" value="Enter email for newsletter"></input>
-                <input class="searchbar--button" type="button" value="" />
-            </form>
-        </div>
-        <div class="socialmedia">
-            <div class="square__medium--gray icon-facebook"></div>
-            <div class="square__medium--gray icon-twitter"></div>
-            <div class="square__medium--gray icon-google-plus"></div>
-            <div class="square__medium--gray icon-linkedin2"></div>
-            <div class="square__medium--gray icon-flickr"></div>
-        </div>
-        <footer>
-            <div class="left">
+        <section class="social-media">
+            <div class="searchbar">
+                <form action="" class="searchbar--formulaire">
+                    <input class="" type="text" value="Enter email for newsletter"></input>
+                    <input class="searchbar--button" type="button" value="" />
+                </form>
+            </div>
+            <div class="socialmedia">
+                <div class="square__medium--gray icon-facebook"></div>
+                <div class="square__medium--gray icon-twitter"></div>
+                <div class="square__medium--gray icon-google-plus"></div>
+                <div class="square__medium--gray icon-linkedin2"></div>
+                <div class="square__medium--gray icon-flickr"></div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__block">
                 <p>Copyright <i class="fa fa-copyright"></i>Fooseshoes 2013 </p>
                 <p>Designed by Enzo Livolti.</p>
             </div>
-            <div class="right">
-                <ul>
+            <div class="footer__block">
+                <ul class="footer__block--elm">
                     <li href="index.html">Home</li>
                     <li href="support.html">Support</li>
                     <li href="terms.html">Terms and Conditions</li>

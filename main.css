@@ -26,6 +26,7 @@ h4 {
     font-family: century gothic;
     font-weight: 100;
     color: black;
+    float: left;
 }
 h5 {
     font-size: 16pt;
@@ -49,9 +50,15 @@ h6 {
 }
 .square__big--green {
     background-color: darkturquoise;
+    position: absolute;
+    padding: 25px 12px;
 }
 .square__big--orange {
     background-color: coral;
+    position: absolute;
+    padding: 25px 12px;
+    left: 1040px;
+    bottom: -85px;
 }
 .square__little {
     width: 30px;
@@ -77,6 +84,9 @@ h6 {
 .container {
     width: 1000px;
     margin: auto;
+}
+.clear {
+    clear: both;
 }
 
 /*                 HEADER               */
@@ -181,11 +191,51 @@ header {
 .arrivals {
     background-color: #ebe7df;
 }
+.arrivals__block--regroupement {
+    display: block;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.arrivals__block--regroupement article {
+    float: left;
+    width: 30%;
+    margin-left: 2%;
+}
+.arrivals__block--regroupement first:child {
+    margin-left: 0;
+}
+.arrivals__block--regroupement img {
+    width: 80%;
+}
+.show {
+    float: right;
+}
 
 /*               SECTION WIDGET                */
 
 
 /*               SECTION SOCIALMEDIA           */
 
+.social-media {
+    background-color: #242424;
+}
 
 /*               FOOTER                        */
+
+.footer {
+    background-color: #2e2e2e;
+    color: #7d7d7d;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__block {
+    padding: 12px 25px;
+    margin: 15px;
+    line-height: normal;
+}
+.footer__block--elm {
+    display: flex;
+}
+.footer__block--elm li {
+    padding: 5px;
+}
