@@ -161,10 +161,26 @@ header {
     width: 100%;
     color: darkgray;
 }
-.categories__block {}
 
 /*               SECTION CHOICES               */
 
+.choices {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2e2e;
+}
+.choices__bloc {
+    width: 100%;
+    ;
+}
+
+/*               SECTION ARRIVALS              */
+
+.arrivals {
+    background-color: #ebe7df;
+}
 
 /*               SECTION WIDGET                */
 
