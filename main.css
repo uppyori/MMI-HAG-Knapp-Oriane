@@ -39,6 +39,7 @@ h6 {
     font-family: century gothic;
     font-weight: 300;
     color: gray;
+    margin-bottom: 1.5em;
 }
 .square__big {
     width: 70px;
@@ -92,6 +93,15 @@ h6 {
 }
 .clear {
     clear: both;
+}
+.text__style--italic {
+    font-style: italic;
+}
+.text__color--green {
+    color: #57c5a0;
+}
+.text__color--white {
+    color: #afb0aa;
 }
 
 /*                 HEADER               */
@@ -218,6 +228,19 @@ header {
 
 /*               SECTION WIDGET                */
 
+.widget {
+    background-color: #242424;
+    color: #7d7d7d;
+    display: flex;
+    padding: 1.5em;
+}
+.widget__text-widget {
+    width: 75%;
+    margin-right: 2em;
+}
+.widget__flick-widget {
+    float: left;
+}
 
 /*               SECTION SOCIALMEDIA           */
 
