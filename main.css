@@ -60,6 +60,11 @@ h6 {
     left: 1040px;
     bottom: -85px;
 }
+.square__medium--gray {
+    background-color: #2e2e2e;
+    width: 50px;
+    height: 50px;
+}
 .square__little {
     width: 30px;
     heigth: 30px;
@@ -108,9 +113,9 @@ header {
 
 .menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
-    background-color: aliceblue;
+    background-color: #ffffff;
 }
 .menu__nav {
     display: flex;
@@ -216,8 +221,28 @@ header {
 
 /*               SECTION SOCIALMEDIA           */
 
+.searchbar--button {
+    transform: rotate(90deg);
+}
 .social-media {
     background-color: #242424;
+    display: flex;
+    justify-content: space-between;
+}
+.social-media__icons {
+    display: flex;
+    flex-direction: row;
+}
+.icon-facebook,
+.icon-twitter,
+.icon-google-plus,
+.icon-linkedin2,
+.icon-flickr {
+    display: block;
+    width: 2em;
+    height: 2em;
+    margin: auto;
+    text-align: center;
 }
 
 /*               FOOTER                        */
