@@ -3,6 +3,10 @@
 body {
     box-sizing: border-box;
 }
+.container {
+    width: 1000px;
+    margin: auto;
+}
 h1 {
     font-size: 20pt;
     font-family: century gothic;
@@ -33,7 +37,7 @@ h5 {
     font-family: raleway;
     font-weight: 500;
     color: #242424;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.7em;
 }
 h6 {
     font-size: 12pt;
@@ -66,6 +70,17 @@ h6 {
     background-color: #2e2e2e;
     width: 50px;
     height: 50px;
+}
+.square__medium--green {
+    background-color: #57c5a0;
+    color: white;
+    font-family: raleway;
+    font-weight: 400;
+    width: 2.3em;
+    height: 2.3em;
+    vertical-align: middle;
+    text-align: center;
+    margin-right: 0.5em;
 }
 .square__little {
     width: 30px;
@@ -100,15 +115,15 @@ h6 {
     color: white;
     text-align: center;
 }
-.container {
-    width: 1000px;
-    margin: auto;
-}
 .clear {
     clear: both;
 }
 .text__style--italic {
     font-style: italic;
+}
+.text__style--bold {
+    font-weight: 700;
+    font-family: Raleway;
 }
 .text__color--green {
     color: #57c5a0;
@@ -172,8 +187,8 @@ header {
 .menu__navigation--element4,
 .menu__navigation--element5,
 .menu__navigation--element6 {
-    padding: 1em;
-    margin: 1em;
+    padding: 0.5em;
+    margin: 0.5em;
     height: 5em;
 }
 
@@ -215,10 +230,25 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #2e2e2e;
+    font-family: raleway;
+    font-weight: 300;
 }
 .choices__bloc {
-    width: 100%;
-    ;
+    display: -webkit-flex;
+    display: flex;
+    width: 300px;
+    height: 150px;
+}
+.choices__bloc--elm {
+    background-color: black;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+}
+.choices__bloc--elm a {
+    text-decoration: none;
+    color: white;
+    margin: auto;
 }
 
 /*               SECTION ARRIVALS              */
@@ -245,26 +275,35 @@ header {
 }
 .arrivals__regroupement-part2 {
     display: flex;
-    flex-direction: row;
-    width: 100%;
 }
 .arrivals__regroupement-part2--freeshipping,
-.arrivals__regroupement-part2--blog,
 .arrivals__regroupement-part2--testimonials {
-    background-color: #afb0aa;
-    margin: 2em;
-    color: #242424;
-    padding: 1.5em;
-}
-.arrivals__regroupement-part2--testimonials,
-.arrivals__regroupement-part2--freeshipping,
-{
-    flex-grow: 1;
+    width: 20%;
+    padding: 1em;
+    background-color: #dfdbd4;
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+    margin-top: 0;
 }
 .arrivals__regroupement-part2--blog {
-    flex-grow: 1;
+    padding: 1em;
+    background-color: #dfdbd4;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 1.5em;
 }
-.show {
+.arrivals__blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+.arrivals__blog--elm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+*/ .show {
     float: right;
 }
 
